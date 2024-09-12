@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @font-face {
+    font-family: 'ABClogoFont';
+    src: url('./assets/fonts/ABClogoFont.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.text-inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.text-logo{
+    font-family: ABClogoFont;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+  
+.backImage{
+    background-image: url(./assets/images/photo.svg);
+}
