@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Footer from "./layouts/Footer";
 import RoadMapSection from "./layouts/RoadMap-section";
 import WelcomeSection from "./layouts/Welcome-section";
 
@@ -11,6 +12,9 @@ export default function Landing() {
           <WelcomeSection />
           <RoadMapSection />
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

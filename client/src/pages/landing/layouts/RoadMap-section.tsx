@@ -27,11 +27,11 @@ export default function RoadMapSection() {
         <SkillPoint text="Back-End" isBorder={false} image={backendImage} />
         <SkillPoint text="Cybersecurity" isBorder={false} image={secureImage} />
       </div>
-      <div className="flex gap-3 absolute h-8 top-[73px] right-[84px]">
+      <div className="flex gap-3 absolute h-8 top-[73px] right-[84px] ">
         <div className="w-8 h-8 rounded-full bg-white border-1 border-[#F0EFF1] cursor-pointer flex justify-center text-center items-center">
           <img src={arrowLeft} alt="arrow" className="mt-[2px] mr-1" />
         </div>
-        <div className="w-8 h-8 rounded-full bg-white border-1 border-[#F0EFF1] cursor-pointer flex justify-center items-center">
+        <div className="w-8 h-8 rounded-full bg-white border-1 border-[#F0EFF1] cursor-pointer shadow-md flex justify-center items-center">
           <img src={arrowRight} alt="arrow" className="mt-[2px]" />
         </div>
       </div>
