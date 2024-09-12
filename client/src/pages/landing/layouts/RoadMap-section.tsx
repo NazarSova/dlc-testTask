@@ -9,7 +9,7 @@ import arrowRight from "../../../assets/images/arrowright.svg";
 export default function RoadMapSection() {
   return (
     <section className="bg-[#F6F8FA] px-[116px] relative h-[777px]">
-      <h2 className="text-black text-[41px] pt-[64px] font-normal">
+      <h2 className="text-black text-[41px] pt-[64px] font-bold">
         Learn the Skills Hiring Managers Want
       </h2>
       <div className="flex gap-6 mt-8">
